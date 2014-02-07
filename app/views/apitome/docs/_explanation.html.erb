@@ -1,3 +1,3 @@
-<p class="explanation">
-  <%= raw example['explanation'] %>
-</p>
+<div class="explanation">
+  <%= raw GitHub::Markdown.render_gfm(example['explanation']) %>
+</div>
